@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Cruzeiro do Norte</title>
+</head>
+
+<body>
+    <main>
+        <h2>Formulário de Contato</h2>
+        <fieldset>
+            <form action="">
+                <label for="Nome">Nome Completo:</label>
+                <input type="text" id="Nome" placeholder="Digite seu nome completo" required>
+
+                <br>
+
+                <label for="Email">Endereço de Email:</label>
+                <input type="email" id="Email" placeholder="Digite seu email" required>
+
+                <br>
+
+                <label for="Assunto">Assunto:</label>
+                <select name="Assunto" id="Assunto" required>
+                    <option value="">Selecione um Assunto</option>
+                    <option value="Pergunta">Pergunta</option>
+                    <option value="Feedback">Feedback</option>
+                    <option value="Informação">Informação</option>
+                </select>
+
+                <br>
+
+                <label for="Mensagem">Mensagem:</label>
+                <textarea name="Mensagem" id="Mensagem" cols="30" rows="4" placeholder="Digite sua Mensagem"
+                    required></textarea>
+
+                <br>
+
+                <input type="checkbox">
+                <Label>Desejo receber Newsletter</Label>
+
+                <br>
+
+                <input type="submit">
+
+            </form>
+        </fieldset>
+    </main>
+</body>
+
+</html>
